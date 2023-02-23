@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="escribe_mensaje">Escribe un mensaje</string>
+    <string name="enviar">Enviar</string>
+</resources>
