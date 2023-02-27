@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LocDVD</string>
+    <string name="anyo_de_aparicion">"Año de aparición: %d"</string>
+</resources>

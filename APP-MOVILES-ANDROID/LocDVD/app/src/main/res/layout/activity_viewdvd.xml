@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="título del dvd"
+        android:id="@+id/tituloDVD"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="año"
+        android:id="@+id/anyoDVD"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="actor 1"
+        android:id="@+id/actor1"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="actor 2"
+        android:id="@+id/actor2"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resumen"
+        android:id="@+id/resumenPelicula"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:minLines="5"
+        android:maxLines="15" />
+
+</LinearLayout>
