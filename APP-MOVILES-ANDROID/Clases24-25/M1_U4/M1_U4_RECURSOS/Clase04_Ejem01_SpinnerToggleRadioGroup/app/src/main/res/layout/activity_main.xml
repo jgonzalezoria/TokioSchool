@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_dato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="34sp" />
+
+    <ToggleButton
+        android:id="@+id/tb_encendido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="@string/apagado"
+        android:textOn="@string/encendido" />
+
+    <RadioGroup
+        android:id="@+id/rg_opciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_opcion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcion 1" />
+
+        <RadioButton
+            android:id="@+id/rb_opcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcion 2" />
+
+        <RadioButton
+            android:id="@+id/rb_opcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Opcion 3" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_datos"
+        android:minHeight="48dp" />
+
+</LinearLayout>

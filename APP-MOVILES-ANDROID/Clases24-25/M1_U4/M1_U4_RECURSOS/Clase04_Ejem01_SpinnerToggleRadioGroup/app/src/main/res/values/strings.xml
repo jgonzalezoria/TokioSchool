@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clase04_Ejem01_SpinnerToggleRadioGroup</string>
+    <string name="apagado">Apagado</string>
+    <string name="encendido">Encendido</string>
+    <string-array name="spinner_datos">
+        <item>Opcion 1</item>
+        <item>Opcion 2</item>
+        <item>Opcion 3</item>
+    </string-array>
+</resources>

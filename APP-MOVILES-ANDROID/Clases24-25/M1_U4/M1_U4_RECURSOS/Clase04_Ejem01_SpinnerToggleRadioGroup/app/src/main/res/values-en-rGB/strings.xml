@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Class04_Ejem01_SpinnerToggleRadioGroup</string>
+    <string name="apagado">Off</string>
+    <string name="encendido">On</string>
+</resources>
